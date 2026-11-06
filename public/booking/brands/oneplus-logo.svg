@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 40" width="150" height="40">
+  <rect x="2" y="2" width="36" height="36" rx="8" fill="#F50514"/>
+  <text x="20" y="27" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" text-anchor="middle">1+</text>
+  <text x="48" y="27" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="20" fill="#000000" letter-spacing="-0.5">ONEPLUS</text>
+</svg>

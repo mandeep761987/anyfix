@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="8" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="#F8FAFC"/>
+  <circle cx="120" cy="120" r="95" fill="#EFF6FF" opacity="0.7"/>
+
+  <g filter="url(#softShadow)">
+    <!-- Smartphone Chassis -->
+    <rect x="65" y="25" width="110" height="190" rx="20" fill="#020617" stroke="#334155" stroke-width="2"/>
+    <!-- Deep pitch black OLED screen -->
+    <rect x="70" y="32" width="100" height="176" rx="16" fill="#000000"/>
+    
+    <!-- Top pill -->
+    <rect x="108" y="38" width="24" height="6" rx="3" fill="#0F172A"/>
+
+    <!-- Minimalist Apple/System Boot Logo -->
+    <g fill="#FFFFFF">
+      <path d="M120 86 C 122 83, 124 81, 123 78 C 120 78, 118 80, 117 83 C 117 85, 119 87, 120 86 Z"/>
+      <path d="M128 102 C 128 97, 132 94, 132 94 C 130 90, 126 89, 124 89 C 120 89, 117 91, 115 91 C 113 91, 110 89, 107 89 C 102 89, 98 93, 98 99 C 98 107, 104 118, 109 118 C 111 118, 112 116, 115 116 C 117 116, 118 118, 121 118 C 125 118, 128 111, 128 108 C 128 108, 125 106, 125 103 C 125 100, 128 98, 128 98 Z" transform="translate(-8 -4) scale(1.15)"/>
+    </g>
+
+    <!-- System Restore / Recovery Progress Bar -->
+    <rect x="86" y="145" width="68" height="4" rx="2" fill="#1E293B"/>
+    <rect x="86" y="145" width="42" height="4" rx="2" fill="#1D4ED8"/>
+
+    <!-- Support / Update gear badge -->
+    <circle cx="120" cy="170" r="10" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+    <path d="M120 164 L120 166 M120 174 L120 176 M114 170 L116 170 M124 170 L126 170 M116 166 L117 167 M123 173 L124 174 M116 174 L117 173 M123 167 L124 166" stroke="#38BDF8" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="120" cy="170" r="3" fill="#020617" stroke="#38BDF8" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="blueCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="650" fill="url(#bgGrad2)" />
+
+  <!-- Technical Bench Mat Pattern -->
+  <rect x="100" y="440" width="800" height="170" rx="16" fill="#1E293B" stroke="#334155" stroke-width="2" />
+  <line x1="120" y1="460" x2="880" y2="460" stroke="#334155" stroke-width="1.5" stroke-dasharray="8 8" />
+  <text x="140" y="485" fill="#64748B" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">ANYFIX DIAGNOSTIC BENCH • ESD SAFE</text>
+
+  <!-- Technician Character (Left, professional uniform, showing disassembled screen/part) -->
+  <g transform="translate(320, 230)" filter="url(#shadow2)">
+    <!-- Tech Uniform / Torso -->
+    <path d="M-60 85 C-65 140 -50 210 -20 220 L30 220 C60 210 65 140 50 85 Z" fill="#1D4ED8" stroke="#3B82F6" stroke-width="2" />
+    <!-- Collar & ANYFIX Badge -->
+    <polygon points="-15,85 0,115 15,85" fill="#F8FAFC" />
+    <rect x="-42" y="110" width="34" height="18" rx="3" fill="#0F172A" />
+    <text x="-25" y="123" text-anchor="middle" fill="#60A5FA" font-family="system-ui, -apple-system, sans-serif" font-size="7" font-weight="800">ANYFIX TECH</text>
+
+    <!-- Tech Head -->
+    <circle cx="0" cy="40" r="32" fill="#FDBA74" />
+    <!-- Hair & Cap -->
+    <path d="M-34 38 C-34 10 -10 8 0 8 C15 8 34 12 34 38 C25 28 0 26 -34 38 Z" fill="#0F172A" />
+    <path d="M-40 30 C-30 24 10 24 45 28 C50 28 50 34 40 36 C10 32 -25 32 -40 30 Z" fill="#1E40AF" />
+
+    <!-- Explaining Gesture Arm -->
+    <path d="M40 100 Q100 90 140 120" fill="none" stroke="#FDBA74" stroke-width="20" stroke-linecap="round" />
+    <!-- ESD Anti-static wristband -->
+    <rect x="115" y="105" width="14" height="24" rx="3" fill="#10B981" />
+  </g>
+
+  <!-- Explaining Display/Part Floating in Center with Transparent Annotations -->
+  <g transform="translate(500, 240)" filter="url(#shadow2)">
+    <!-- Glowing Device / OLED Screen module -->
+    <rect x="-70" y="-80" width="140" height="240" rx="20" fill="#0F172A" stroke="#38BDF8" stroke-width="3" />
+    <!-- Screen Glass & Display Layer -->
+    <rect x="-60" y="-60" width="120" height="190" rx="12" fill="#1E293B" />
+    <!-- Diagnostic graphic on screen -->
+    <circle cx="0" cy="30" r="36" fill="#0284C7" fill-opacity="0.2" stroke="#38BDF8" stroke-width="2" />
+    <path d="M-15 30 L-3 42 L18 18" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0" y="85" text-anchor="middle" fill="#E2E8F0" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">OLED DISPLAY: 100% OK</text>
+    <text x="0" y="100" text-anchor="middle" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="9">Original Grade Part</text>
+
+    <!-- Inspection callout tags -->
+    <g transform="translate(-130, -50)">
+      <rect x="0" y="0" width="100" height="34" rx="8" fill="#1E293B" stroke="#60A5FA" stroke-width="1.5" />
+      <text x="12" y="15" fill="#93C5FD" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700">OLD DIGITIZER</text>
+      <text x="12" y="27" fill="#EF4444" font-family="system-ui, -apple-system, sans-serif" font-size="8">Micro-fracture detected</text>
+      <line x1="100" y1="17" x2="125" y2="10" stroke="#60A5FA" stroke-width="1.5" stroke-dasharray="3 3" />
+      <circle cx="125" cy="10" r="3" fill="#60A5FA" />
+    </g>
+
+    <g transform="translate(80, 50)">
+      <line x1="-20" y1="15" x2="0" y2="15" stroke="#34D399" stroke-width="1.5" stroke-dasharray="3 3" />
+      <circle cx="-20" cy="15" r="3" fill="#34D399" />
+      <rect x="0" y="0" width="115" height="34" rx="8" fill="#1E293B" stroke="#34D399" stroke-width="1.5" />
+      <text x="12" y="15" fill="#A7F3D0" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700">GENUINE SEAL</text>
+      <text x="12" y="27" fill="#6EE7B7" font-family="system-ui, -apple-system, sans-serif" font-size="8">Serialized factory unit</text>
+    </g>
+  </g>
+
+  <!-- Customer Character (Right, attentive, smiling, informed) -->
+  <g transform="translate(680, 230)" filter="url(#shadow2)">
+    <!-- Customer Torso -->
+    <path d="M-40 90 C-45 140 -35 210 -10 220 L40 220 C65 210 70 140 60 90 Z" fill="#334155" stroke="#475569" stroke-width="2" />
+    <!-- Customer Head -->
+    <circle cx="10" cy="40" r="30" fill="#FED7AA" />
+    <!-- Hair -->
+    <path d="M-15 35 C-20 15 5 10 25 10 C45 10 45 25 40 45 C35 30 15 25 -15 35 Z" fill="#64748B" />
+    <!-- Satisfied expression smile -->
+    <path d="M-2 48 Q10 58 22 48" fill="none" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- "Understood!" badge dialog -->
+    <g transform="translate(20, -30)">
+      <rect x="0" y="0" width="145" height="48" rx="12" fill="#1E293B" stroke="#10B981" stroke-width="1.5" />
+      <polygon points="20,48 28,62 38,48" fill="#1E293B" stroke="#10B981" stroke-width="1.5" />
+      <rect x="23" y="46" width="14" height="4" fill="#1E293B" />
+      <text x="12" y="20" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800">100% IN-FRONT OF YOU</text>
+      <text x="12" y="36" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="500">No hidden backroom swaps.</text>
+    </g>
+  </g>
+</svg>

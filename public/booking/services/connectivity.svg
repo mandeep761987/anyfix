@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <filter id="connShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="8" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="#F8FAFC"/>
+  <circle cx="120" cy="120" r="95" fill="#EFF6FF" opacity="0.7"/>
+
+  <g filter="url(#connShadow)">
+    <rect x="75" y="35" width="90" height="170" rx="18" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+    <rect x="80" y="42" width="80" height="156" rx="14" fill="#020617"/>
+    
+    <!-- 5G / Wi-Fi Signal Radar Waves -->
+    <path d="M104 110 A 24 24 0 0 1 136 110" stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M94 95 A 38 38 0 0 1 146 95" stroke="#1D4ED8" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M84 80 A 52 52 0 0 1 156 80" stroke="#60A5FA" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <circle cx="120" cy="125" r="5" fill="#38BDF8"/>
+
+    <text x="108" y="162" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="14" font-weight="900">5G</text>
+    <text x="103" y="175" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="8" font-weight="600">NETWORK</text>
+  </g>
+</svg>

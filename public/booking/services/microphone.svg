@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="micMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="40%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <linearGradient id="micFlex" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+    <filter id="micShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="6" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="#F8FAFC"/>
+  <circle cx="120" cy="120" r="95" fill="#EFF6FF" opacity="0.7"/>
+
+  <g filter="url(#micShadow)">
+    <!-- Golden Polyimide Flex Cable -->
+    <path d="M85 130 L85 175 L155 175 L155 130" fill="none" stroke="url(#micFlex)" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="155" cy="175" r="4" fill="#FDE68A"/>
+    <circle cx="85" cy="175" r="4" fill="#FDE68A"/>
+
+    <!-- MEMS Microphone Metal Shield Canister -->
+    <rect x="86" y="70" width="68" height="60" rx="10" fill="url(#micMetal)" stroke="#64748B" stroke-width="1.5"/>
+    <rect x="92" y="76" width="56" height="48" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1"/>
+    
+    <!-- Precision Acoustic Port Hole -->
+    <circle cx="120" cy="100" r="8" fill="#020617" stroke="#475569" stroke-width="1.5"/>
+    <circle cx="120" cy="100" r="4" fill="#0F172A"/>
+
+    <!-- Golden Pin Terminals on back/edge -->
+    <rect x="96" y="128" width="10" height="6" rx="1" fill="#F59E0B"/>
+    <rect x="115" y="128" width="10" height="6" rx="1" fill="#F59E0B"/>
+    <rect x="134" y="128" width="10" height="6" rx="1" fill="#F59E0B"/>
+
+    <!-- Voice Waveform Rings (Capturing Sound) -->
+    <path d="M72 100 C 60 85, 60 115, 72 100" stroke="#1D4ED8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M52 100 C 40 70, 40 130, 52 100" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M168 100 C 180 85, 180 115, 168 100" stroke="#1D4ED8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M188 100 C 200 70, 200 130, 188 100" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

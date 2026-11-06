@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <filter id="shadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1000" height="650" fill="url(#bgGrad3)" />
+
+  <!-- Ambient background grid -->
+  <g opacity="0.1">
+    <path d="M0 100 H1000 M0 200 H1000 M0 300 H1000 M0 400 H1000 M0 500 H1000" stroke="#94A3B8" stroke-width="1" />
+    <path d="M200 0 V650 M400 0 V650 M600 0 V650 M800 0 V650" stroke="#94A3B8" stroke-width="1" />
+  </g>
+
+  <!-- Large Transparent Upfront Digital Quote Card (Center Stage) -->
+  <g transform="translate(330, 80)" filter="url(#shadow3)">
+    <!-- Card Frame -->
+    <rect x="0" y="0" width="360" height="490" rx="28" fill="#1E293B" stroke="#334155" stroke-width="2.5" />
+    
+    <!-- Top Header Bar -->
+    <path d="M0 28 Q0 0 28 0 L332 0 Q360 0 360 28 L360 70 L0 70 Z" fill="#0F172A" />
+    <circle cx="36" cy="35" r="14" fill="#1D4ED8" />
+    <path d="M30 35 L34 39 L43 30" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+    <text x="60" y="32" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800">ANYFIX OFFICIAL ESTIMATE</text>
+    <text x="60" y="48" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Guaranteed Locked Quote • Zero Hidden Fees</text>
+
+    <!-- Itemized List Table -->
+    <g transform="translate(24, 100)">
+      <!-- Row 1: Brand & Model -->
+      <rect x="0" y="0" width="312" height="48" rx="10" fill="#0F172A" />
+      <text x="16" y="22" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">SELECTED DEVICE</text>
+      <text x="16" y="38" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">Apple iPhone 13 Pro (128GB)</text>
+
+      <!-- Row 2: Part / Replacement -->
+      <g transform="translate(0, 60)">
+        <rect x="0" y="0" width="312" height="52" rx="10" fill="#0F172A" />
+        <text x="16" y="22" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">REPAIR SERVICE</text>
+        <text x="16" y="38" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">OLED Screen Replacement (Genuine)</text>
+        <text x="296" y="38" text-anchor="end" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800">₹4,299</text>
+      </g>
+
+      <!-- Row 3: Doorstep Service Fee (FREE) -->
+      <g transform="translate(0, 124)">
+        <rect x="0" y="0" width="312" height="48" rx="10" fill="#0F172A" />
+        <text x="16" y="21" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">DOORSTEP VISIT &amp; DIAGNOSTICS</text>
+        <text x="16" y="36" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">Doorstep Technician Visit</text>
+        <text x="296" y="36" text-anchor="end" fill="#10B981" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800">FREE (₹0)</text>
+      </g>
+
+      <!-- Row 4: Warranty Included -->
+      <g transform="translate(0, 184)">
+        <rect x="0" y="0" width="312" height="44" rx="10" fill="#0F172A" />
+        <text x="16" y="20" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600">WARRANTY PROTECTION</text>
+        <text x="16" y="34" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">6 Months Comprehensive Warranty</text>
+        <text x="296" y="34" text-anchor="end" fill="#10B981" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="800">INCLUDED</text>
+      </g>
+
+      <!-- Total Highlight Block -->
+      <g transform="translate(0, 246)">
+        <rect x="0" y="0" width="312" height="66" rx="14" fill="#0284C7" fill-opacity="0.15" stroke="#1D4ED8" stroke-width="2" />
+        <text x="16" y="28" fill="#93C5FD" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">FINAL TOTAL (TAX INCLUDED)</text>
+        <text x="16" y="52" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900">₹4,299</text>
+        <g transform="translate(195, 18)">
+          <rect x="0" y="0" width="100" height="28" rx="14" fill="#10B981" />
+          <text x="50" y="18" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800">PRICE LOCKED</text>
+        </g>
+      </g>
+
+      <!-- Peace of Mind Check -->
+      <text x="156" y="335" text-anchor="middle" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">No surprise surcharges • Pay only after work is complete</text>
+    </g>
+  </g>
+
+  <!-- Left Customer Figure Confidently Thumbs Up -->
+  <g transform="translate(180, 260)" filter="url(#shadow3)">
+    <!-- Head -->
+    <circle cx="0" cy="40" r="30" fill="#FED7AA" />
+    <path d="M-25 35 C-30 15 -10 10 10 10 C30 10 30 25 25 45 C15 30 0 25 -25 35 Z" fill="#475569" />
+    <path d="M-10 48 Q5 58 15 48" fill="none" stroke="#0F172A" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Torso -->
+    <path d="M-40 85 C-45 130 -35 200 -10 210 L35 210 C55 200 60 130 50 85 Z" fill="#1E293B" stroke="#334155" stroke-width="2" />
+    <!-- Thumbs up arm -->
+    <path d="M20 100 Q70 85 90 60" fill="none" stroke="#FED7AA" stroke-width="18" stroke-linecap="round" />
+    <!-- Hand thumbs up -->
+    <circle cx="95" cy="55" r="12" fill="#FED7AA" />
+    <rect x="90" y="38" width="10" height="20" rx="5" fill="#FED7AA" />
+  </g>
+
+  <!-- Right Floating Trust Pill -->
+  <g transform="translate(730, 280)" filter="url(#shadow3)">
+    <rect x="0" y="0" width="180" height="90" rx="16" fill="#1E293B" stroke="#10B981" stroke-width="2" />
+    <circle cx="34" cy="45" r="18" fill="#10B981" />
+    <path d="M26 45 L32 51 L43 39" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <text x="64" y="38" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800">100% Upfront</text>
+    <text x="64" y="56" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="10">Exact quote in 30 sec</text>
+    <text x="64" y="70" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">Before booking</text>
+  </g>
+</svg>

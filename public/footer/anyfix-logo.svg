@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" fill="none">
+  <rect x="0" y="4" width="32" height="32" rx="10" fill="#1D4ED8"/>
+  <path d="M10 20L15 25L23 15" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="40" y="27" fill="white" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="22" letter-spacing="-0.03em">ANYFIX</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="metalRail" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <filter id="spkShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="#F8FAFC"/>
+  <circle cx="120" cy="120" r="95" fill="#EFF6FF" opacity="0.7"/>
+
+  <g filter="url(#spkShadow)">
+    <!-- Smartphone Edge Chassis with Precision Speaker Holes -->
+    <rect x="35" y="75" width="170" height="28" rx="10" fill="url(#metalRail)" stroke="#CBD5E1" stroke-width="1"/>
+    
+    <!-- Precision CNC Speaker Mesh Cutouts -->
+    <circle cx="60" cy="89" r="3.5" fill="#020617"/>
+    <circle cx="72" cy="89" r="3.5" fill="#020617"/>
+    <circle cx="84" cy="89" r="3.5" fill="#020617"/>
+    <circle cx="96" cy="89" r="3.5" fill="#020617"/>
+    <circle cx="108" cy="89" r="3.5" fill="#020617"/>
+    <circle cx="120" cy="89" r="3.5" fill="#020617"/>
+    <circle cx="132" cy="89" r="3.5" fill="#020617"/>
+    <circle cx="144" cy="89" r="3.5" fill="#020617"/>
+    <circle cx="156" cy="89" r="3.5" fill="#020617"/>
+    <circle cx="168" cy="89" r="3.5" fill="#020617"/>
+    <circle cx="180" cy="89" r="3.5" fill="#020617"/>
+
+    <!-- Radiating Sound Waves in ANYFIX Blue -->
+    <path d="M95 125 C 110 138, 130 138, 145 125" stroke="#1D4ED8" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M80 145 C 105 166, 135 166, 160 145" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M65 165 C 100 195, 140 195, 175 165" stroke="#60A5FA" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M50 185 C 95 224, 145 224, 190 185" stroke="#93C5FD" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

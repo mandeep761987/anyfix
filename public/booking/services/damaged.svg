@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <filter id="dmgShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="8" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="240" height="240" rx="24" fill="#F8FAFC"/>
+  <circle cx="120" cy="120" r="95" fill="#EFF6FF" opacity="0.7"/>
+
+  <g filter="url(#dmgShadow)">
+    <rect x="65" y="25" width="110" height="190" rx="20" fill="#0F172A" stroke="#475569" stroke-width="2"/>
+    <rect x="70" y="32" width="100" height="176" rx="16" fill="#020617"/>
+    
+    <!-- Diagnostic inspection crosshair / tech grid -->
+    <path d="M80 50 L160 50 M80 75 L160 75 M80 100 L160 100 M80 125 L160 125 M80 150 L160 150 M80 175 L160 175" stroke="#1E3A8A" stroke-width="0.5" opacity="0.4"/>
+    <path d="M95 40 L95 190 M120 40 L120 190 M145 40 L145 190" stroke="#1E3A8A" stroke-width="0.5" opacity="0.4"/>
+
+    <!-- Crack across screen -->
+    <path d="M80 60 L110 95 L145 80 L165 130" stroke="#EF4444" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M110 95 L95 140 L130 165" stroke="#EF4444" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Diagnostic target circle -->
+    <circle cx="120" cy="115" r="26" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="4 2"/>
+    <circle cx="120" cy="115" r="4" fill="#EF4444"/>
+    <text x="96" y="182" fill="#94A3B8" font-family="monospace" font-size="8" font-weight="bold">DIAGNOSTIC</text>
+  </g>
+</svg>
